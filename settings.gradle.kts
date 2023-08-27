@@ -1,7 +1,7 @@
 
 rootProject.name = "BlockDisplayer"
-include("BlockDisplayerBukkit")
-include("BlockDisplayerFabric")
+include("blockdisplayer-bukkit")
+include("blockdisplayer-fabric")
 
 pluginManagement {
     repositories {

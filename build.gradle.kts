@@ -4,7 +4,7 @@ plugins {
 }
 
 allprojects {
-    group = "kr.icetang0123"
+    group = "xyz.icetang0123"
     version = "1.0-SNAPSHOT"
 
     repositories {
