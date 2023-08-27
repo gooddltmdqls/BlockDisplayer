@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/BlockDisplayerBukkit" />
-            <option value="$PROJECT_DIR$/BlockDisplayerFabric" />
+            <option value="$PROJECT_DIR$/blockdisplayer-bukkit" />
+            <option value="$PROJECT_DIR$/blockdisplayer-fabric" />
           </set>
         </option>
       </GradleProjectSettings>
