@@ -33,8 +33,4 @@ jobs:
         with:
           files: |
             blockdisplayer-bukkit/build/libs/*
-<<<<<<< HEAD
             blockdisplayer-fabric/build/libs/*
-=======
-            blockdisplayer-fabric/build/libs/*
->>>>>>> origin/main
