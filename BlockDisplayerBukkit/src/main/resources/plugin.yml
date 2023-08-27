@@ -1,8 +1,8 @@
 main: BlockDisplayer
 name: BlockDisplayer
-version: 1.0-SNAPSHOT
+version: ${version}
 depend: [ WorldEdit ]
-api-version: 1.20
+api-version: '1.20'
 authors: [ Icetang0123, Qu_rk ]
 libraries:
   - io.github.monun:kommand-core:3.1.6

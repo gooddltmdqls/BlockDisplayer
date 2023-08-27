@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayerBukkit/BlockDisplayer.BlockDisplayerBukkit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayerBukkit/BlockDisplayer.BlockDisplayerBukkit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayerBukkit/BlockDisplayer.BlockDisplayerBukkit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayerBukkit/BlockDisplayer.BlockDisplayerBukkit.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayerFabric/BlockDisplayer.BlockDisplayerFabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayerFabric/BlockDisplayer.BlockDisplayerFabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayerFabric/BlockDisplayer.BlockDisplayerFabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayerFabric/BlockDisplayer.BlockDisplayerFabric.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kr.icetang0123.BlockDisplayer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kr.icetang0123.BlockDisplayer.main.iml" />

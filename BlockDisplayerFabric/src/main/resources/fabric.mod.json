@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "block_displayer",
+  "version": "${version}",
+
+  "name": "BlockDisplayer",
+  "description": "Convert blocks to block display!",
+  "authors": [
+    "Icetang0123"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/block_displayer/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "BlockDisplayer"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.20.x",
+    "worldedit": "7.2.15"
+  }
+}
