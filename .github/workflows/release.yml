@@ -34,4 +34,3 @@ jobs:
           files: |
             blockdisplayer-bukkit/build/libs/*
             blockdisplayer-fabric/build/libs/*
-          tag_name: github.refs
