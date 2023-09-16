@@ -36,7 +36,6 @@ class BlockDisplayerCommand {
                                 return@requires it.player!!.hasPermissionLevel(4)
                             }
                             .executes { ctx ->
-                                println("this is working111")
                                 val tag = StringArgumentType.getString(ctx, "tag")
                                 val player = ctx.source.playerOrThrow
                                 val selection = player.selection

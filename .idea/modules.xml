@@ -8,8 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/blockdisplayer-fabric/BlockDisplayer.blockdisplayer-fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/blockdisplayer-fabric/BlockDisplayer.blockdisplayer-fabric.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockDisplayer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockDisplayer.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kr.icetang0123.BlockDisplayer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kr.icetang0123.BlockDisplayer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kr.icetang0123.BlockDisplayer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kr.icetang0123.BlockDisplayer.test.iml" />
     </modules>
   </component>
 </project>

@@ -5,7 +5,7 @@ plugins {
 
 allprojects {
     group = "xyz.icetang0123"
-    version = "1.0-SNAPSHOT"
+    version = "1.1-SNAPSHOT"
 
     repositories {
         mavenCentral()
@@ -18,23 +18,5 @@ subprojects {
     apply {
         plugin("org.jetbrains.kotlin.jvm")
         plugin("maven-publish")
-    }
-
-    configure<PublishingExtension> {
-        repositories {
-            maven {
-                name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/gooddltmdqls/BlockDisplayer")
-                credentials {
-                    username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
-                    password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
-                }
-            }
-        }
-        publications {
-            register<MavenPublication>("gpr") {
-                from(components["java"])
-            }
-        }
     }
 }

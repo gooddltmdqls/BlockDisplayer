@@ -11,11 +11,11 @@ import io.github.monun.kommand.StringType
 import io.github.monun.kommand.getValue
 import io.github.monun.kommand.kommand
 import net.kyori.adventure.text.Component
+import net.kyori.adventure.text.format.NamedTextColor
 import org.bukkit.entity.EntityType
 import org.bukkit.entity.Player
 import org.bukkit.plugin.java.JavaPlugin
 import utils.selection
-import utils.t
 
 class BlockDisplayer : JavaPlugin() {
     override fun onEnable() {
@@ -33,7 +33,7 @@ class BlockDisplayer : JavaPlugin() {
             register("/display") {
                 requires { sender is Player && player.isOp }
                 executes {
-                    player.sendMessage(Component.text("%red%Usage: //display <tag>".t))
+                    player.sendMessage(Component.text("Usage: //display <tag>").color(NamedTextColor.RED))
 
                     return@executes
                 }
@@ -45,7 +45,7 @@ class BlockDisplayer : JavaPlugin() {
                         val selection = player.selection
 
                         if (selection == null) {
-                            player.sendMessage(Component.text("%red%Please select region with selwand".t))
+                            player.sendMessage(Component.text("Please select region with selwand").color(NamedTextColor.RED))
 
                             return@executes
                         }
@@ -53,12 +53,12 @@ class BlockDisplayer : JavaPlugin() {
                         val session = WorldEdit.getInstance().sessionManager.findByName(player.name)
 
                         if (session == null) {
-                            player.sendMessage(Component.text("%red%Please select region with selwand".t))
+                            player.sendMessage(Component.text("Please select region with selwand").color(NamedTextColor.RED))
 
                             return@executes
                         }
 
-                        player.sendMessage(Component.text("%light_purple%Converting blocks to block display with the command tag $tag".t))
+                        player.sendMessage(Component.text("Converting blocks to block display with the command tag $tag").color(NamedTextColor.LIGHT_PURPLE))
 
                         val actor = BukkitAdapter.adapt(player)
                         val editSession = session.createEditSession(actor)
